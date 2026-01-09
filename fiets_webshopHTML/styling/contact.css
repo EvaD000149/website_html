@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: #46C0FD;
+}
+
+.search {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.look img {
+  width: 60px;
+  transition: transform 0.3s;
+}
+
+.look img:hover {
+  transform: scale(1.15);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+}
+
+.button {
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3A4698;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #5c6fec;
+  transform: scale(1.1);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 400px 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.formulier {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background: #5c6fec;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 8px 0 16px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+textarea {
+  height: 120px;
+}
+
+.butt {
+  width: 100%;
+  padding: 12px;
+  background-color: #1c234c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.butt:hover {
+  transform: scale(1.05);
+}
+
+.info,
+.open {
+  background-color: #5c6fec;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+.plaatje img {
+ height: 190px;
+ width: 400px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #46C0FD;
+  color: white;
+  padding: 30px;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
